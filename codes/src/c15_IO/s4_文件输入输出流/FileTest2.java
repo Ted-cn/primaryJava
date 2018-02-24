@@ -7,7 +7,7 @@ import java.io.FileOutputStream;
 /**
  * Created by Administrator on 2018/2/23.
  */
-public class FileTest {
+public class FileTest2 {
     public static void main(String[] args) {
         File file = new File("word.txt");
         try {

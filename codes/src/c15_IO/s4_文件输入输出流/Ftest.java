@@ -91,6 +91,8 @@ public class Ftest extends JFrame {
 
     private void initialize() {
         this.setSize(300,200);
+        this.setLocation(500,300);
+        this.setAlwaysOnTop(true);
         this.setContentPane(getJContentPane());
         this.setTitle("JFrame");
     }
