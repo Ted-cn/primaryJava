@@ -1,0 +1,2 @@
+1.get(int index)
+2.set(int index, Object obj)

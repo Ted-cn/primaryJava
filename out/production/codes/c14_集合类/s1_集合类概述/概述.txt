@@ -1,0 +1,12 @@
+常用集合：
+Map:
+1.Object --> Map --> HashMap
+                 --> TreeMap
+
+Set:
+1.Object --> Collection --> Set --> HashSet
+                                --> TreeSet
+
+List:
+1.Object --> Collection --> List --> HashSet
+                                 --> TreeSet
