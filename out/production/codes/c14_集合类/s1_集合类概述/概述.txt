@@ -1,12 +1,16 @@
 常用集合：
-Map:
-1.Object --> Map --> HashMap
-                 --> TreeMap
+Map(映射):
+1.Object --> Map --> HashMap （无序，效率高）
+                 --> TreeMap （有序，效率低）
 
-Set:
-1.Object --> Collection --> Set --> HashSet
-                                --> TreeSet
+Set(集)(不可重复):
+1.Object --> Collection --> Set --> HashSet （无序，效率高）
+                                --> TreeSet （有序，效率低）
 
-List:
-1.Object --> Collection --> List --> HashSet
-                                 --> TreeSet
+List(链表):
+1.Object --> Collection --> List --> ArrayList （访问优先）
+                                 --> LinkedList （操作优先）
+
+Tips:
+1.“TreeXxx”都是有序的，因此在添加、删除、定位时效率较低，且不能使用null
+2.实现了Collection接口，才有iterator()方法，所以Map没有。
