@@ -1,0 +1,12 @@
+1.用一个字符数组a创建String对象
+char[] a = {'g','o','o','d'};
+String s = new String(a);
+
+等价于：
+
+String s = new String("good");
+
+等价于：
+
+2.通过字符串常量的引用赋值
+String s = "good";
