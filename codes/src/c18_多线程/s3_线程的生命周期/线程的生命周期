@@ -1,0 +1,7 @@
+出生：调用start()方法之前
+就绪：调用start()方法之后
+执行：得到系统资源后
+等待：wait()
+休眠: sleep() notify() notifyAll()
+阻塞
+死亡
